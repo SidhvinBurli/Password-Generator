@@ -90,7 +90,7 @@ function App() {
               id='characterInput'
               onChange={() => { notChar((prev) => !prev); }}
             />
-            <label htmlFor='characterInput'>
+            <label htmlFor='characterInput' style={{backgroundColor:'blue'}}>
               Characters
             </label>
           </div>
